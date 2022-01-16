@@ -1,0 +1,23 @@
+Create a command-line application for a chess validator with the following requirements:
+
+Initialize a chessboard with two players and all the pieces in the right positions.
+iPrint the board after initializing.
+Allow the user to make moves on behalf of both the players.
+The user will make a move by entering the start position and the end position.
+You need to determine the piece and make the move if it is valid.
+Valid move:
+The piece is controlled by the player having the current turn
+The move is valid based on how that particular piece can move
+The start and end position are inside the board
+If the move is invalid
+print 'Invalid Move'
+the same player plays again
+If the move is valid:
+move the piece to the destination and remove any captured piece
+print the board after the move
+The position of a piece is represented as the column name (a-h) followed by the row number (1-8).
+
+Examples
+a1 represents the cell at the extreme bottom-left
+h8 represents the cell at the extreme top-right.
+
